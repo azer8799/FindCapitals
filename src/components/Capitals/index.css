@@ -1,0 +1,40 @@
+/* Write your CSS here */
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #93c5fd;
+  padding: 15px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 15px;
+  background-color: #fff;
+  color: #1e293b;
+}
+
+.input-container {
+  display: flex;
+}
+
+.label-text {
+  margin-left: 10px;
+}
+
+select {
+  cursor: pointer;
+}
+
+.answer {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+}
